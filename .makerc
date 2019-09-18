@@ -1,0 +1,4 @@
+REPO_PATH?=kitingchris
+NAME?=dotnet-core-sdk
+TAG?=2.2-alpine3.9
+BUILD_ARGS?=--build-arg BASE_TAG=${TAG}
