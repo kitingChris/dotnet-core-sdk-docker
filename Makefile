@@ -7,9 +7,9 @@ endif
 
 .PHONY: all build image clean
 
-image: build clean alias
+image: build clean
 
-all: build clean alias push
+all: build clean push
 
 clean:
 	docker system prune --volumes --force
